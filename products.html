@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Crown Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Crown Keeper</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#cart" class="cart-icon">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Product Page Header -->
+    <section class="page-header">
+        <h1>Our Collections</h1>
+        <p>Find your perfect wig style</p>
+    </section>
+
+    <!-- Filters & Products -->
+    <section class="shop">
+        <div class="container">
+            <div class="shop-layout">
+                <!-- Sidebar Filters -->
+                <aside class="filters">
+                    <h3>Filter By</h3>
+                    <div class="filter-group">
+                        <label><input type="checkbox" class="filter-type"> Lace Front</label>
+                        <label><input type="checkbox" class="filter-type"> Full Lace</label>
+                        <label><input type="checkbox" class="filter-type"> 360 Lace</label>
+                        <label><input type="checkbox" class="filter-type"> Closure</label>
+                    </div>
+                    <div class="filter-group">
+                        <h4>Price Range</h4>
+                        <label><input type="checkbox" class="filter-price"> Under $50</label>
+                        <label><input type="checkbox" class="filter-price"> $50 - $100</label>
+                        <label><input type="checkbox" class="filter-price"> $100 - $150</label>
+                        <label><input type="checkbox" class="filter-price"> $150+</label>
+                    </div>
+                </aside>
+
+                <!-- Products Grid -->
+                <div class="products-section">
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image" style="background-color: #f0e6d2;">Image</div>
+                            <h3>Curly Lace Front</h3>
+                            <p>14" - 24" | 100% Human Hair</p>
+                            <span class="price">$99.99</span>
+                            <button class="btn btn-primary add-to-cart" data-name="Curly Lace Front" data-price="99.99">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image" style="background-color: #e8d4c4;">Image</div>
+                            <h3>Straight 360 Lace</h3>
+                            <p>16" - 26" | Premium Grade</p>
+                            <span class="price">$129.99</span>
+                            <button class="btn btn-primary add-to-cart" data-name="Straight 360 Lace" data-price="129.99">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image" style="background-color: #d4c4b4;">Image</div>
+                            <h3>Kinky Coily Full Lace</h3>
+                            <p>12" - 20" | Natural Texture</p>
+                            <span class="price">$119.99</span>
+                            <button class="btn btn-primary add-to-cart" data-name="Kinky Coily Full Lace" data-price="119.99">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image" style="background-color: #c9b9a9;">Image</div>
+                            <h3>Water Wave Lace Front</h3>
+                            <p>14" - 22" | Virgin Hair</p>
+                            <span class="price">$109.99</span>
+                            <button class="btn btn-primary add-to-cart" data-name="Water Wave Lace Front" data-price="109.99">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image" style="background-color: #bfaf9f;">Image</div>
+                            <h3>Body Wave Full Lace</h3>
+                            <p>16" - 24" | Lightweight</p>
+                            <span class="price">$124.99</span>
+                            <button class="btn btn-primary add-to-cart" data-name="Body Wave Full Lace" data-price="124.99">Add to Cart</button>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image" style="background-color: #b59f8f;">Image</div>
+                            <h3>Passion Twist Wig</h3>
+                            <p>Protective Style | Easy Care</p>
+                            <span class="price">$79.99</span>
+                            <button class="btn btn-primary add-to-cart" data-name="Passion Twist Wig" data-price="79.99">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Crown Keeper. All rights reserved.</p>
+            <p>Celebrating Black Beauty | Premium African Hair Wigs</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
